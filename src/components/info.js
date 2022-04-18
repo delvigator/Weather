@@ -4,7 +4,7 @@ class Info extends react.Component{
 
   render(){
     return (
-      <div align="center">
+      <div>
       <h1> Погода </h1>
       </div>
     );
