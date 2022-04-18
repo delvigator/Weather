@@ -17,7 +17,7 @@ state = {
   error:undefined
 }
 
-  gettingWeather = async (event) => {
+    gettingWeather = async (event) => {
     event.preventDefault();
     var city=event.target.elements.city.value;
     const api = await
@@ -52,10 +52,12 @@ else {
   sunset: undefined,
   wind:undefined,
   error:"Введите название города"
+
     });
 
 }
 }
+
   render(){
 
     return(
