@@ -1,14 +1,11 @@
-import react from "react";
+import React from "react";
 
-class Info extends react.Component{
-
-  render(){
-    return (
-      <div>
-      <h1> Погода </h1>
-      </div>
-    );
-  }
+function Info() {
+  return (
+    <div>
+      <h1> Прогноз погоды </h1>
+    </div>
+  );
 }
 
 export default Info;

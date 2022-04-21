@@ -1,1 +1,63 @@
-     
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,300i,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+
+body {
+    font-family: "Open Sans", serif;
+}
+
+.wrapper {
+    background: linear-gradient(to right, #e67e22, #e74c3c);
+    height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.locationWrpper {
+    flex-basis: 100%;
+}
+
+
+.forecast {
+    flex-shrink: 20;
+    flex-basis: 100px;
+    padding: 15px;
+    margin: 10 5px;
+    border-radius: 30px;
+    background-color: rgba(60, 19, 19, 0.2);
+}
+
+.text {
+    color: black;
+    display: block;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.currentWeather {
+    flex-basis: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto 1fr;
+    margin: 20px 0;
+    grid-gap: 30px;
+}
+
+.forecastWrapper {
+    flex-basis: 100%;
+    margin: 20px 0;
+    overflow: hidden;
+}
+
+.weatherWrapper {
+    max-width: 1500px;
+    margin: 0 auto;
+    height: calc(100vh - 64px);
+    width: 100%;
+    position: relative;
+}
