@@ -43,8 +43,8 @@ const Result = ({ weather }) => {
 
                 <p>Восход солнца: {sunrise}</p>
                 <p>Закат: {sunset}</p>
-                <p>Влажность:{humidity}</p>
-                <p>Сила ветра: {wind}</p>
+                <p>Влажность:{humidity}%</p>
+                <p>Сила ветра: {wind} км/ч</p>
 
             </div>
             <div className="forecastWrapper">
